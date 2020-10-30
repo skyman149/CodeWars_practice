@@ -1,4 +1,4 @@
- public class SumFrom1oN
+class SumFrom1oN
 {
 	public void sum(int n) 
 	{
@@ -10,16 +10,4 @@
 		}
 		System.out.println(res);
 	}
-	
-	public static void main(String[] args)
-	{
-		SumFrom1toN s = new SumFrom1toN();
-		s.sum(3); // 6 (1+2+3)
-		s.sum(5); // 15
-		s.sum(0); // 0
-		s.sum(-3); // 0
-	}
-}
-class SumFrom1ToN {
-    
 }

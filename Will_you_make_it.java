@@ -7,7 +7,7 @@ if it is possible to get to the pump or not. Function should return true (1 in P
 if it is possible and false (0 in Prolog) if not. The input values are always positive.
 */
 
-public class Kata {
+public class Will_you_make_it {
   
     public static boolean zeroFuel(double distanceToPump, double mpg, double fuelLeft) 
     {

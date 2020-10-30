@@ -13,7 +13,7 @@ you get $20 off your total.
 Write a code that gives out the total amount for different days(d).
 */
 
-public class Kata {
+public class Transportation_on_vacation {
     public static int rentalCarCost(int d) {
       if (d < 3) 
       {

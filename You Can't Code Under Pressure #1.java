@@ -8,3 +8,5 @@ class Java {
       return i * 2;
     }
   }
+
+  //AS

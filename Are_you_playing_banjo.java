@@ -18,7 +18,7 @@
 
 public class Are_you_playing_banjo {
     public static String areYouPlayingBanjo(String name) {
-        if(name.toLowerCase().charAt(0) == 'r'){
+        if(Character.toLowerCase(name.charAt(0)) == 'r'){ // Character class has methods for char, name.charAt(0)) -> first symbol of name
             return name + " plays banjo";
         } else {
             return name + " does not play banjo";

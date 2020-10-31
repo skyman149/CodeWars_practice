@@ -1,12 +1,28 @@
+// public class Are_you_playing_banjo {
+//     public static String areYouPlayingBanjo(String name) {
+//         String result;
+//         if(name.toLowerCase().charAt(0) == 'r'){
+//             result = name + " plays banjo";
+//         } else {
+//             result = name + " does not play banjo";
+//         }
+//         return result;
+//       }
+//       public static void main (String[] args){
+//         System.out.println(areYouPlayingBanjo("Martin")); // false
+//         System.out.println(areYouPlayingBanjo("Rickie")); // true
+//       }
+// }
+
+// OR (better)
+
 public class Are_you_playing_banjo {
     public static String areYouPlayingBanjo(String name) {
-        String result;
         if(name.toLowerCase().charAt(0) == 'r'){
-            result = name + " plays banjo";
+            return name + " plays banjo";
         } else {
-            result = name + " does not play banjo";
+            return name + " does not play banjo";
         }
-        return result;
       }
       public static void main (String[] args){
         System.out.println(areYouPlayingBanjo("Martin")); // false
